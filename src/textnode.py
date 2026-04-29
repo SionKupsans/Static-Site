@@ -2,7 +2,6 @@ from enum import Enum
 
 from src.leafnode import LeafNode
 
-
 class TextType(Enum):
     TEXT = "plain"
     BOLD = "bold"
