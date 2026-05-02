@@ -1,5 +1,5 @@
 from textnode import TextType , TextNode
-from extract_links import extract_markdown_images, extract_markdown_links 
+from extract import extract_markdown_images, extract_markdown_links 
 
 def split_nodes_delimiter(old_nodes, delimiter, text_type):
     new_nodes = []
